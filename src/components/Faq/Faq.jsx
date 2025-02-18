@@ -5,7 +5,7 @@ const questions = [
   {
     question: "What is Antarikha 2K25?",
     answer:
-      "Antarikha 2k25 is the one of biggest Technical event in the history of DYPCOE.",
+      "Antariksha 2k25 is the one of biggest Technical event in the history of DYPCOE.",
   },
   {
     question: "What are the Dates and Timings of event?",
@@ -18,9 +18,9 @@ const questions = [
       "Explore various events on the Antarikha website and register for the same",
   },
   {
-    question: "Is there any entry fee for Antarikha 2k25?",
+    question: "Is there any entry fee for Antariksha 2k25?",
     answer:
-      "No, there is not any entry fee to Take Part in Antarikha 2k25 .",
+      "No, there is not any entry fee to Take Part in Antariksha 2k25 .",
   },
 ];
 
