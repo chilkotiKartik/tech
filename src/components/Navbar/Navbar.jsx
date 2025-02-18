@@ -116,9 +116,7 @@ const Navbar = () => {
           </ul>
 
           
-            <div className={classes.btn}>
-              <GrabBitBtn label="" />
-            </div>
+            
           
 
           <div className={classes.hamburger} onClick={() => setMobile(!mobile)}>
@@ -138,11 +136,11 @@ const Navbar = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://grabbits.vercel.app/"
+            href="/events"
           >
             {/* <button className={classes.btn1}>GrabBit</button> */}
             <div className={classes.btn1}>
-              <GrabBitBtn label="GrabBit" />
+              <GrabBitBtn label="Click Me" />
             </div>
           </a>
 
