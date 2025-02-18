@@ -219,7 +219,7 @@ const Navbar = () => {
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <Link className={classes.homeLink} to="/leaderboard">
-                  Leaderboard
+                  More
                 </Link>
               </Drop>
             </li>
