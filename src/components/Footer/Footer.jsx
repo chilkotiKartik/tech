@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           </div>
           <p className={classes.footer_sambhav_description}>
-          Antarikha 25 is One of the Largest Technical festival of Akit Tanakpur. Let&apos;s
+          Antariksha 25 is One of the Largest Technical festival of Akit Tanakpur. Let&apos;s
             make a Tech move.
           </p>
           <div className={classes.footer_social_item}>
