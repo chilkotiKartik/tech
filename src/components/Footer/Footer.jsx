@@ -175,7 +175,9 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p>Dr. A.P.J. Abdul Kalam Institute of Technology, Tanakpur, Champawat
+              <p>Veer Madho Singh Bhandari Uttarakhand Technical University, Dehradun, Campus Institute:
+              Dr. A.P.J. Abdul Kalam Institute of Technology, Tanakpur, Champawat
+              
               </p>
             </div>
           </div>
