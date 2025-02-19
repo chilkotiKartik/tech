@@ -10,9 +10,9 @@ const About = () => {
         <div className={classes.about}>
           <div className={classes.details}>
             <h3 className={classes.heading}>About</h3>
-            <h2 className={classes.heading1}>Antarikha 25</h2>
+            <h2 className={classes.heading1}>Antariksha 25</h2>
             <p className={classes.para}>
-            Antarikha is a technical festival offering a diverse range of events
+            Antariksha is a technical festival offering a diverse range of events
               and competitions focused on technology and innovation. It provides
               a platform for individuals to showcase their skills, learn from
               others, and foster creativity, teamwork, and problem-solving
@@ -20,7 +20,7 @@ const About = () => {
               technology, Antarikha helps broaden their knowledge and skillset,
               making it a fun, engaging, and enriching experience for all
               attendees. Get ready to be a part of the biggest technical
-              extravaganza of the year 2k25 –Antarikha!
+              extravaganza of the year 2k25 –Antariksha!
             </p>
 
             {/* <p className={classes.para}>

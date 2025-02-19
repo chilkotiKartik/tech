@@ -5,7 +5,11 @@ const questions = [
   {
     question: "What is Antariksha 2K25?",
     answer:
+<<<<<<< HEAD
       "Antariksha 2k25 is the one of biggest Technical event in the history of Akit Tanakpur.",
+=======
+      "Antariksha 2k25 is the one of biggest Technical event in the history of DYPCOE.",
+>>>>>>> b4045838a24e940a0e54084b63321fd2d159bfd6
   },
   {
     question: "What are the Dates and Timings of event?",
