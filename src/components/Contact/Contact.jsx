@@ -23,7 +23,7 @@ const Contact = () => {
               <h3 className={classes.personHeading}>Uttam Tiwari</h3>
               <div className={classes.details}>
                 <p>
-                Event Head<br></br>Antarikha 2K25
+                Event Head<br></br>Antariksha 2K25
                 </p>
                 <a className={classes.anchor} href="tel:+919548826516">
                   +91 9548826516
