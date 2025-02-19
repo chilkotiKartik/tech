@@ -5,6 +5,7 @@ import SpaceExpo from "./Events/Photography Poster.png";
 import SpinningRival from "./Events/Technical Debate.png";
 import f from "./Events/f.png";
 import g from "./Events/g.png";
+import u from "./Events/logo.png";
 import v from "./Events/v.png";
 import c from "./Events/c.png";
 import a from "./Events/a.png";
@@ -13,10 +14,15 @@ import z from "./Events/z.jpg";
 import w from "./Events/w.png";
 import fo from "./Events/fo.png";
 import ab from "./Events/ab.jpg";
+import l from "./Events/lau.jpg";
+import b from "./Events/b.png";
+import ac from "./Events/ac.png";
+import o from "./Events/cad.png";
+import t from "./Events/bri.png";
 import TreasureHunt from "./Events/TreasureHunt.png";
 export const eventsData = [
   {
-    id: 1,
+    id: 4,
     image: Khoj,
     name: "PAPER GLIDING",
     description:
@@ -41,7 +47,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLScCEEsIKu-9qxBgFY847IiGcwUymit5GxJ8Qq00Pup8mnQpIw/viewform?usp=dialog",
   },
   {
-    id: 2,
+    id: 16,
     image: TreasureHunt,
     name: "TREASURE HUNT",
     description:
@@ -69,7 +75,7 @@ export const eventsData = [
     link: "https://t.ly/5IatR",
   },
   {
-    id: 3,
+    id: 2,
     image: SpinningRival,
     name: "Technical Debate",
     description:
@@ -96,7 +102,7 @@ export const eventsData = [
   {
    
     
-    id: 4 ,
+    id: 20 ,
     image:  BlindCoding,
     name: "Innovator's Arena",
     description:
@@ -119,7 +125,7 @@ export const eventsData = [
   },
   
   {
-    id: 5,
+    id: 18,
     image: f ,
     name: "Reel Making ",
     description:
@@ -160,7 +166,7 @@ export const eventsData = [
   // },
   
   {
-    id: 6,
+    id: 17,
     image: SpaceExpo,
     name: "Snap Sparks",
     description:
@@ -185,7 +191,7 @@ export const eventsData = [
     onSpot: "true",
   },
   {
-   id: 7,
+   id: 3,
     image: g,
     name: "Private investigator ",
     description:
@@ -211,7 +217,7 @@ export const eventsData = [
     onSpot: "true",
   },
   {
-    id: 8,
+    id: 10,
     image: v,
     name: "Valo Clash",
     description:
@@ -236,7 +242,7 @@ export const eventsData = [
     onSpot: "true",
   }, 
   {
-    id: 9,
+    id: 13,
     image: c,
     name: "LAN Games",
     description:
@@ -262,7 +268,7 @@ export const eventsData = [
     onSpot: "true",
   }, 
   {
-    id: 10,
+    id: 5,
     image: a,
     name: "3DEXPITE(3D modeling)",
     description:
@@ -287,7 +293,7 @@ export const eventsData = [
     onSpot: "true",
   }, 
   {
-    id: 11,
+    id: 1,
     image: h,
     name: "HACK-A-DOX ",
     description:
@@ -313,7 +319,7 @@ export const eventsData = [
     onSpot: "true",
   }, 
   {
-    id: 12,
+    id: 19,
     image: z,
     name: "Mystery Box",
     description:
@@ -345,7 +351,7 @@ export const eventsData = [
     onSpot: "true",
   }, 
   {
-    id: 13,
+    id: 7,
     image: ab,
     name: "Glitch Hunt",
     description:
@@ -373,7 +379,7 @@ export const eventsData = [
     onSpot: "true",
   }, 
   {
-    id: 14,
+    id: 11,
     image: w,
     name: "AKIT Championship Wrestling (ACW)",
     description:
@@ -402,7 +408,7 @@ export const eventsData = [
     onSpot: "true",
   }, 
   {
-    id: 15,
+    id: 12,
     image: fo,
     name: "FIFA Showdown",
     description:
@@ -430,6 +436,159 @@ export const eventsData = [
     link: "https://form.jotform.com/250490854091458",
     onSpot: "true",
   }, 
+  {
+  id: 8,
+  image: u,
+  name: "Logo Arena",
+  description:
+    "Welcome to Logo Arena –  A competitive stage where creativity shapes iconic logos",
+  rules: ["Theme Announcement:-",
+    
+    "Participants must bring their own laptop with Photoshop setup or any other photo editing software.",
+"Time starts once the theme is revealed.",
+"Do not use AI-based automation or template generation."],
+  prizes: ["EXICITING PRIZES AND REWARDS"],
+  team: "Both",
+  fees: "Free",
+  contactInfo: [
+    "Jayant Majumdar  (6399791643)",
+    
 
+    
+  ],
+  location: "College",
+  date: "24-25 Feb ",
+  note: [
+    "Please Read Google Form For More Details",
+  ],
+  link: "https://docs.google.com/forms/d/e/1FAIpQLScsuThM3S59-7Os0JRkWSJI_h0jlWMy2PPy2ZgTz_5NCaXpWQ/viewform",
+  onSpot: "true",
+}, 
+ 
+{
+  id: 15,
+  image: b,
+  name: "BGMI TDM ESports",
+  description:
+    "Welcome to BGMI TDM ESports –  A competitive stage where creativity in Game ",
 
+  rules: ["Game :- BGMI Battlegrounds Mobile India",
+"Mode :- TDM Team Deathmatch",
+"Map :- Default TDM Map",
+"Team Size :- Minimum 4 players per team",
+"Weapons :- No restrictions All weapons allowed"],
+  team: "Minimum 4 players per team",
+  fees: "Free",
+  contactInfo: [
+    "Abhishek Kumar Majumdar  (+91 7455069625)",
+    
+    
+
+    
+  ],
+  location: "College",
+  date: "24-25 Feb ",
+  note: [
+    "Please Read Google Form For More Details",
+  ],
+  link: "https://tripetto.app/run/LE0B18O95V",
+  onSpot: "true",
+}, 
+{
+  id: 14,
+  image: ac,
+  name: "Asphalt 9 Legends",
+  description:
+    "Welcome to Asphalt 9 Legends –  Fair Play Rules No hacking cheating or use of external devices is allowed. ",
+
+  rules: ["Qualifiers If Registration Exceeds 6 Players",
+"Format :- All registered players race in multiple matches",
+"Races :- Each player participates in 3 races",
+"Advancement :- Top 6 players with the highest cumulative points qualify for the Finals-"],
+  team: "Individual ",
+  fees: "Free",
+  contactInfo: [
+    "Abhishek Kumar Majumdar  (+91 7455069625)",
+    
+    
+
+    
+  ],
+  location: "College",
+  date: "24-25 Feb ",
+  note: [
+    "Please Read Google Form For More Details",
+  ],
+  link: "https://tripetto.app/run/LE0B18O95V",
+  onSpot: "true",
+}, 
+{
+  id: 6,
+  image: l,
+  name: "Pneumatic Launchers",
+  description:
+    "Pneumatic launcher to launch a projectile as far as possible or hit a specific target, competing for accuracy and distance both.  ",
+
+  rules: ["Team Size - 2 members",
+"Only air-powered launchers allowed. (No chemicals or explosives)",
+"Teams must follow all safety protocols. "],
+  team: "Individual ",
+  fees: "Free",
+  contactInfo: [
+    "Priyansh Bhatt  (+91 9149204536)",
+    "Shubham Dey  (+919336371738 )"
+  ],
+  location: "College",
+  date: "25 Feb ",
+  note: [
+    "Please Read Google Form For More Details",
+  ],
+  link: "https://docs.google.com/forms/d/e/1FAIpQLSd13W8dDgSLTUKHmz1fEDiurVGbmtTJuo1y_zI3CC9ixq95UQ/viewform",
+  onSpot: "true",
+}, 
+{
+  id: 9,
+  image: o,
+  name: "CAD-CLASH",
+  description:
+    " CAD-CLASH is the ultimate AutoCAD 2D modeling challenge, where precision, creativity, and technical expertise collide! ",
+
+  rules: ["Design & Draft – Create highly accurate 2D models based on given problem statements.",
+" Race Against Time – Complete your designs within the allotted time while maintaining precision.",
+"Compete & Win – Stand a chance to win exciting prizes and earn the title of CAD Champion! "],
+  team: "Individual ",
+  fees: "Free",
+  contactInfo: [
+    "Jyoti Bisht  (+91 769628567)",
+    "Amol Bhatt  (+91 769628567 )"
+  ],
+  location: "College",
+  date: "24 Feb ",
+  note: [
+    "Please Read Google Form For More Details",
+  ],
+  link: "https://docs.google.com/forms/d/e/1FAIpQLSessw9aChRUy7P9M5qusHb65kNJyuFfG17FRxMi9tgDq8iaZQ/viewform",
+  onSpot: "true",
+}, 
+{
+  id: 21,
+  image: t,
+  name: "Structural Showdown",
+  description:
+    " Get ready for Structural Showdown, an exciting competition where you’ll showcase your engineering skills by building a bridge using ice cream sticks and Fevicol ",
+
+  rules: ["Team "],
+  fees: "Free",
+  contactInfo: [
+    "Abhishek Chand  (+918755866633 )",
+    "Jatin Bohra  (+917500583837  )"
+  ],
+  location: "College",
+  date: "24-25 Feb ",
+  note: [
+    "Please Read Google Form For More Details",
+  ],
+  link: "https://docs.google.com/forms/d/e/1FAIpQLSdcdWFx4ZKwNoZCTuREbciMLm90d1a_8a13R31sgMP5BjquzA/viewform",
+  onSpot: "true",
+}, 
 ];

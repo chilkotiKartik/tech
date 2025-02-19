@@ -32,12 +32,12 @@ const Popup = () => {
           <div className={classes.blur}>
             <div className={classes.card}>
               <img className={classes.grabbit_image} src={logo} alt="logo" />
-              <h2 className={classes.text}>Exploring Antarikha is Free!</h2>
+              <h2 className={classes.text}>Exploring Antariksha is Free!</h2>
               <h1 className={classes.subtext}>All The Events are free.</h1>
               <div className={classes.btn_container}>
                 <Button
                   onClick={handleClose}
-                  link="/events"
+                  link="/home"
                   label="Explore our Events"
                 />
               </div>
