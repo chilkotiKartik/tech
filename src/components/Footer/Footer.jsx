@@ -94,8 +94,8 @@ const Footer = () => {
             </div>
           </div>
           <p className={classes.footer_sambhav_description}>
-          Dr. A.P.J. Abdul Kalam Institute of Technology, Tanakpur, Champawat
-          डॉ. ए.पी.जे. अब्दुल कलाम प्रौद्योगिकी संस्थान, टनकपुर चंपावत
+          Veer Madho Singh Bhandari Uttarakhand Technical University, Dehradun, Campus Institute:
+                  Dr. A.P.J. Abdul Kalam Institute of Technology, Tanakpur, Champawat
           </p>
           <div className={classes.footer_social_item}>
             <div>
