@@ -10,6 +10,9 @@ import c from "./Events/c.png";
 import a from "./Events/a.png";
 import h from "./Events/h.png";
 import z from "./Events/z.jpg";
+import w from "./Events/w.png";
+import fo from "./Events/fo.png";
+import ab from "./Events/ab.jpg";
 import TreasureHunt from "./Events/TreasureHunt.png";
 export const eventsData = [
   {
@@ -302,7 +305,7 @@ export const eventsData = [
       
     ],
     location: "College",
-    date: "25 Feb ",
+    date: "24-25 Feb ",
     note: [
       "Please Read Google Form For More Details",
     ],
@@ -328,18 +331,105 @@ export const eventsData = [
     team: "Atmost 2 memberss",
     fees: "Free",
     contactInfo: [
-      "Ritusah (9634155563)",
+      "Ritu sah (9634155563)",
 ,
 
       
     ],
     location: "College",
-    date: "25 Feb ",
+    date: "24-25 Feb ",
     note: [
       "Please Read Google Form For More Details",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdOkGzcP4S7aBaPP5PMQvca8R-VFcQ1LqmYuCErWORyy9P8EA/viewform",
     onSpot: "true",
   }, 
+  {
+    id: 13,
+    image: ab,
+    name: "Glitch Hunt",
+    description:
+      "Welcome to Glitch Hunt: The Ultimate Debugging Challenge! This is a thrilling coding competition where participants will test their debugging skills across multiple rounds of increasing difficulty.",
+    rules: ["Languages : C ,  C++, Python, JavaScript.",
+      "Fair Play:",
+      "No use of AI tools, online compilers, or external debugging software.",
+      "No collaboration between teams during solo rounds.",
+      "agiarism or code-sharing will lead to disqualification.."],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
+    team: "Both",
+    fees: "Free",
+    contactInfo: [
+      "Akash Mehra (9634155563)",
+      "Abhay Chand()",
+
+      
+    ],
+    location: "College",
+    date: "24-25 Feb ",
+    note: [
+      "Please Read Google Form For More Details",
+    ],
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSe2XdBQAct0dWuUEE0tM5jmQyqStohZ4pMSe5NAPDQ66PsM4A/viewform?usp=sharing",
+    onSpot: "true",
+  }, 
+  {
+    id: 14,
+    image: w,
+    name: "AKIT Championship Wrestling (ACW)",
+    description:
+      "Welcome to AKIT Championship Wrestling (ACW) .",
+    rules: ["Conditions to Participate:",
+      "Open to all students of [Your College Name",
+      " Participants must register before [Deadline Date]",
+      "Own controller (if applicable) is recommended",
+      "No custom characters or mods allowed",
+       "Respect fair play & sportsmanship."],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
+    team: "Both",
+    fees: "Free",
+    contactInfo: [
+      "Bhavya Pandey (9911022995)",
+      
+
+      
+    ],
+    location: "College",
+    date: "24-25 Feb ",
+    note: [
+      "Please Read Google Form For More Details",
+    ],
+    link: "https://form.jotform.com/250491520981457",
+    onSpot: "true",
+  }, 
+  {
+    id: 15,
+    image: fo,
+    name: "FIFA Showdown",
+    description:
+      "Get ready for the ultimate FIFA gaming experience at Akit College! The Akit FIFA Showdown is a high-energy LAN tournament where the best players battle it out for glory.",
+    rules: ["1️⃣ Game & Platform:",
+      "Will Be Played on FIFA 24 (or latest version)",
+      "Played on PlayStation / PC ",
+      "You Dont have to bring your pc/ps or controller it will be provided ",
+      "2️⃣ Match Format:",
+      "1 matches (Knockout or League format)",
+      "Match duration: 6-8 minutes per half",
+      "Extra time & penalties for knockout rounds."],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
+    team: "Individual",
+    fees: "Free",
+    contactInfo: [
+      "Bhavya Pandey (9911022995)",
+      
+    ],
+    location: "College",
+    date: "24-25 Feb ",
+    note: [
+      "Please Read Google Form For More Details",
+    ],
+    link: "https://form.jotform.com/250490854091458",
+    onSpot: "true",
+  }, 
+
 
 ];
