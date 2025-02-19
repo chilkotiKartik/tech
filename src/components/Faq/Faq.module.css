@@ -55,13 +55,14 @@
 }
 
 .answer {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   max-height: 100px;
   transition: max-height 0.5s;
   color: #f2f2f2;
   padding: 1.8rem 0 0 0;
   letter-spacing: 0.3rem;
   opacity: 80%;
+  font: bold;
 }
 
 .noAnswer {

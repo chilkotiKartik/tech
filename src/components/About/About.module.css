@@ -1,6 +1,7 @@
 .aboutSec {
   height: 100%;
   padding: 3rem 1.5rem;
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
 
@@ -8,7 +9,7 @@
   width: 100%;
   display: flex;
   margin: 0 auto;
-  background-color: rgba(234, 66, 217, 0.432);
+  background-color: rgba(173, 137, 179, 0.432);
   padding: 4rem 5rem;
   border-radius: 15px;
 }

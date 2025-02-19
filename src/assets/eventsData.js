@@ -9,6 +9,7 @@ import v from "./Events/v.png";
 import c from "./Events/c.png";
 import a from "./Events/a.png";
 import h from "./Events/h.png";
+import z from "./Events/z.jpg";
 import TreasureHunt from "./Events/TreasureHunt.png";
 export const eventsData = [
   {
@@ -56,7 +57,9 @@ export const eventsData = [
     prizes: ["To Be Disclosed Soon"],
     team: "Team of 4",
     fees: "Free",
-    contactInfo: ["Neha Kumari :8126393572"],
+    contactInfo: ["Neha Kumari :8126393572",
+      "Apporva Murari: 7300537440"
+    ],
     location: "College ",
     date: "24th FEB ",
     note: ["Please Read Google Form For More Details"],
@@ -115,9 +118,9 @@ export const eventsData = [
   {
     id: 5,
     image: f ,
-    name: "FLY HIGH SHOW",
+    name: "Reel Making ",
     description:
-      "An Aerial Show in which an airplane and a drone will be deployed simultaneously in the sky, catching the attention of the people on ground. Below there will be a set from which all these will be launched and controlled. This area will also contain all the information about these projects including Where these are used, How it was made, Components required to make this, Description of components, Budget of the overall project and much more. This will act as a great impression for those who have keen interests in aeronautics and flying objects. Also this event will attract people from far and will add as a great addition to the event",
+      "The reels should align with the given theme (e.g., cultural, social awareness, humor, sustainability, etc.).",
     rules: ["1. Theme/Topic:",
 "The reels should align with the given theme (e.g., cultural, social awareness, humor, sustainability, etc.).",
 "Specify if the theme is open-ended or specific to certain categories.",
@@ -132,7 +135,7 @@ export const eventsData = [
       
     ],
     location: "College",
-    date: "23",
+    date: "24th FEB",
     note: ["Please Read Google Form For More Details"],
     link: "https://forms.gle/A8hGMiuY86uFTFaT6",
   },
@@ -159,10 +162,10 @@ export const eventsData = [
     name: "Snap Sparks",
     description:
       "Snap Sparks will be a Where Photography Meets Innovation! This is a fun and competitive event, where participants will test their skills in photography . ",
-    rules: ["1.Participants need to present their work in front of the judges.",
-      "2.Participants need to speak about their image for about 45 seconds.",
-      "3.There must be some hidden message in the photo you clicked.",
-      "4.The message can be of any type such as religion specific or conservative specific and any kind of message. "],
+    rules: ["Participants need to present their work in front of the judges.",
+      "Participants need to speak about their image for about 45 seconds.",
+      "There must be some hidden message in the photo you clicked.",
+      "The message can be of any type such as religion specific or conservative specific and any kind of message. "],
     prizes: ["EXICITING PRIZES AND REWARDS"],
     team: "Individual",
     fees: "Free",
@@ -171,7 +174,7 @@ export const eventsData = [
       "Akshat Kala   : 8923700017",
     ],
     location: "College",
-    date: "23 Feb ",
+    date: "24th FEB ",
     note: [
       "Please Read Google Form For More Details",
     ],
@@ -197,7 +200,7 @@ export const eventsData = [
       "Manish Bisht   : 7579108334 ",
     ],
     location: "College",
-    date: "23 Feb ",
+    date: "24 Feb ",
     note: [
       "Please Read Google Form For More Details",
     ],
@@ -222,7 +225,7 @@ export const eventsData = [
       
     ],
     location: "College",
-    date: "23 Feb ",
+    date: "24 Feb ",
     note: [
       "Please Read Google Form For More Details",
     ],
@@ -248,7 +251,7 @@ export const eventsData = [
       
     ],
     location: "College",
-    date: "23 Feb ",
+    date: "24 Feb ",
     note: [
       "Please Read Google Form For More Details",
     ],
@@ -292,7 +295,7 @@ export const eventsData = [
     prizes: ["EXICITING PRIZES AND REWARDS"],
     team: "Solo / 4 Members",
     fees: "Free",
-    contactInfo: [
+    contactInf: [
       "Rudransh Joshi (rudranshjoshi1806@gmail.com)",
 "Uttam Tiwari (anitauttam204@gmail.com)",
 
@@ -306,4 +309,37 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSe6iG4UJtVDcdzIaZxSNwIdYXPvcmsSy9uXRjPl337x1fVc4A/viewform",
     onSpot: "true",
   }, 
+  {
+    id: 12,
+    image: z,
+    name: "Mystery Box",
+    description:
+      "Welcome to the Mystery Box :  This event is designed for student to show there skills.",
+    rules: ["Team Formation",
+    "Each team must consist atmost 2 members.",
+    "No member is allowed to join or  switch team once game begins.",            
+"Starting & Ending",
+    "The game will start at a designated time and location.",
+    "Your gadgets/devices will be submitted as the game starts",
+"Fair Play & Integrity",
+    " No use of mobile phone, internet or external help for crafting. ",
+   " No member can use items of other team."],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
+    team: "Atmost 2 memberss",
+    fees: "Free",
+    contactInfo: [
+      "Ritusah (9634155563)",
+,
+
+      
+    ],
+    location: "College",
+    date: "25 Feb ",
+    note: [
+      "Please Read Google Form For More Details",
+    ],
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdOkGzcP4S7aBaPP5PMQvca8R-VFcQ1LqmYuCErWORyy9P8EA/viewform",
+    onSpot: "true",
+  }, 
+
 ];

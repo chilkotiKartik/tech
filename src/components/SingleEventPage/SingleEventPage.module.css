@@ -16,7 +16,7 @@
   margin-top: 10vh;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  
   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
   display: flex;
   padding: 18px;
@@ -71,12 +71,12 @@
 .headingp {
   font-size: 24px;
   font-weight: 500;
-  background-image: linear-gradient(to bottom right, #3232ff, #09b9ff);
+  background-image: linear-gradient(to bottom right, #ce8ee7, #09b9ff);
   padding: 4px 12px 4px 12px;
   border-radius: 4px;
 }
 .headingp {
-  background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
+  background-image: linear-gradient(to bottom right, #ce8ee7, #09b9ff);
 }
 
 .content {
@@ -140,6 +140,6 @@
   }
 }
 .soon {
-  color: #ff32ad;
+  color: #d67eda;
   font-size: 20px;
 }

@@ -3,24 +3,24 @@ import classes from "./Faq.module.css";
 
 const questions = [
   {
-    question: "What is Antarikha 2K25?",
+    question: "What is Antariksha 2K25?",
     answer:
-      "Antarikha 2k25 is the one of biggest Technical event in the history of DYPCOE.",
+      "Antariksha 2k25 is the one of biggest Technical event in the history of Akit Tanakpur.",
   },
   {
     question: "What are the Dates and Timings of event?",
     answer:
-      "The event will start From 25 Feb",
+      "The event will start From 24-25 Feb",
   },
   {
     question: "How can I participate in the event?",
     answer:
-      "Explore various events on the Antarikha website and register for the same",
+      "Explore various events on the Antariksha website and register for the same",
   },
   {
-    question: "Is there any entry fee for Antarikha 2k25?",
+    question: "Is there any entry fee for Antariksha 2k25?",
     answer:
-      "No, there is not any entry fee to Take Part in Antarikha 2k25 .",
+      "No, there is not any entry fee to Take Part in Antariksha 2k25 .",
   },
 ];
 
