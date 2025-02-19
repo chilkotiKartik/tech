@@ -12,6 +12,7 @@
   align-items: center;
   height: 100%;
   padding: 13rem;
+  padding-top: 0;
 }
 
 .headerbox {

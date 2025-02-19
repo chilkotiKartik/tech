@@ -18,7 +18,7 @@ import l from "./Events/lau.jpg";
 import b from "./Events/b.png";
 import ac from "./Events/ac.png";
 import o from "./Events/cad.png";
-import t from "./Events/bri.png";
+import t from "./Events/bri.jpg";
 import TreasureHunt from "./Events/TreasureHunt.png";
 export const eventsData = [
   {

@@ -20,13 +20,16 @@ const MainEvents = () => {
     ReactGA.pageview(window.location.pathname);
   });
 
+  const newEventsData = eventsData;
+   newEventsData.sort((a, b) => a.id - b.id);
+
   return (
     <>
       <div className={classes.events_section}>
         <h1 className={classes.heading}>Events</h1>
         <img src="x" alt="" />
         <div className={classes.events_container}>
-          {eventsData.map((eventData, i) => {
+          {newEventsData.map((eventData, i) => {
             return <EventCard eventData={eventData} key={i} />;
           })}
         </div>
