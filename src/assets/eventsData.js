@@ -394,7 +394,7 @@ export const eventsData = [
     team: "Both",
     fees: "Free",
     contactInfo: [
-      "Bhavya Pandey (9911022995)",
+      "Kartik chilkoti (9568885012)",
       
 
       
@@ -560,7 +560,7 @@ export const eventsData = [
   fees: "Free",
   contactInfo: [
     "Jyoti Bisht  (+91 769628567)",
-    "Amol Bhatt  (+91 769628567 )"
+    "Namrata  (+91 8979873252 )"
   ],
   location: "College",
   date: "24 Feb ",
