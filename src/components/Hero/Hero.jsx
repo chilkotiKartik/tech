@@ -54,7 +54,7 @@ const Hero = () => {
 
           <h4 className={classes.caption}>अनन्तं सृजनं, ऊर्ध्वं गमनं, विजयः लक्ष्यः
             
-(Anantam srujanam, ūrdhvam gamanam, vijayaḥ lakṣyaḥ)
+
 </h4>
           <p className={classes.date}>February 24-25, 2025</p>
           <Link

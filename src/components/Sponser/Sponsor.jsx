@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Sponsor.module.css';
-import SponsorImage from '../../assets/sponsor.png'; // Replace with your sponsor image path
+import SponsorImage from '../../assets/sponser.jpg'; // Replace with your sponsor image path
 
 const Sponsor = () => {
   return (
@@ -9,7 +9,7 @@ const Sponsor = () => {
       <div className={classes.sponsorContent}>
         <img src={SponsorImage} alt="Sponsor" className={classes.sponsorImage} />
         <p className={classes.sponsorText}>
-          We are grateful to our sponsors for their generous support. Their contributions help us to achieve our goals and make our events successful.
+          We are grateful to Riha Band  for their generous support. Their contributions help us to achieve our goals and make our  cultural events successful.
         </p>
       </div>
     </div>
