@@ -52,7 +52,10 @@ const Hero = () => {
           {/* <h1 className={classes.heading}>Sambhav</h1> */}
           <img src={text_img} className={classes.text_img} alt="text_img" />
 
-          <h4 className={classes.caption}>Let&apos;s make a tech move!</h4>
+          <h4 className={classes.caption}>अनन्तं सृजनं, ऊर्ध्वं गमनं, विजयः लक्ष्यः
+            
+(Anantam srujanam, ūrdhvam gamanam, vijayaḥ lakṣyaḥ)
+</h4>
           <p className={classes.date}>February 24-25, 2025</p>
           <Link
             className={classes.anchorBtn}

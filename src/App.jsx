@@ -14,6 +14,7 @@ import Register from "./components/common/Register/Register";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Loading from "./components/common/Loading/Loading";
 import Popup from "./components/common/Popup/Popup";
+import Sponsor from './components/Sponsor/Sponsor';
 // import SwupOverlayTheme from "@swup/overlay-theme";
 // import Swup from "swup";
 /* Google Analytics */
@@ -73,7 +74,9 @@ const App = () => {
             {/* <Route path="/" element={<Landing />}></Route>  */}
             {/* <Route path="/" element={<Faq />}></Route>  */}
           </Routes>
+          <Sponsor /> {/* Add the Sponsor section here */}
           <Footer />
+
           {/* <Button /> */}
           {/* </div> */}
         </>

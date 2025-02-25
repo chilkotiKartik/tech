@@ -1,0 +1,33 @@
+.sponsorSection {
+  background-color: rgba(0, 0, 0, 0.432); /* Match the background color */
+  padding: 6rem 8rem;
+  border-radius: 15px;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.heading {
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.sponsorContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsorImage {
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.sponsorText {
+  color: #fff;
+  font-size: 1.5rem;
+  max-width: 800px;
+}
