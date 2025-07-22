@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font|Kalam|Permanent+Marker|Vidaloka&display=swap');
+
+$colors: (
+    background: #3D4E74,
+    text: #FDCE41
+);
+
+$font: (
+    family: sans-serif,
+    size: 3vh,
+    letter-spacing: 0
+);
+
+$config: (
+    animated: false,
+    nb-letters: 30,
+    animation-length: 5s,
+    mask-letters: ("0", "1", "0", "1", "0", "1", "0", "1", "0", "1", "0", "1", "0", "1", "0", "1", "0", "1")
+);
+
+// ----------------------------------
+
+@function color($value) {
+    @return map-get($colors, $value);
+}
+
+@function font($value) {
+    @return map-get($font, $value);
+}
+
+@function config($value) {
+    @return map-get($config, $value);
+}
+
+@function random-string($list) {
+    $result: "";
+    @for $i from 1 through length($list) {
+        $random: random(length($list));
+        $current: nth($list, $random);
+        $list: remove-nth($list, $random);
+        $result: "#{$result}#{$current}";
+    }
+    @return $result;
+}
+
+@function remove-nth($list, $index) {
+    $result: ();
+    @for $i from 1 through length($list) {
+        @if $i != $index {
+            $result: append($result, nth($list, $i));
+        }
+    }
+    @return $result;
+}
+
+@mixin respond-to($breakpoint) {
+    @if type-of($breakpoint) == list {
+        @media (min-width: nth($breakpoint, 1)) and (max-width: nth($breakpoint, 2)) {
+            @content;
+        }
+    }
+    @else {
+        @media (max-width: $breakpoint) {
+            @content;
+        }
+    }
+}
+
+// ----------------------------------
+
+.wrapper {
+    position: relative;
+    top: 0%;
+    margin-top: -8.5%;
+    left: 50%;
+    width: 100vw;
+    text-align: center;
+    font-size: 10vw;
+    transform: translate(-50%);
+}
+
+.wrapper2 {
+    position: relative;
+    top: 0%;
+    margin-top: -13.0%;
+    left: 50%;
+    width: 100vw;
+    text-align: center;
+    font-size: 10vw;
+    transform: translate(-50%);
+    @media screen and (max-width: 800px){
+        font-size: 4vw;
+        margin-top: -20vw;
+    }
+}
+
+.wrapper3 {
+    position: relative;
+    top: 0%;
+    margin-top: -6.0%;
+    left: 50%;
+    width: 100vw;
+    // padding : 1vw;
+    height: 10vw;
+    text-align: center;
+    font-size: 10vw;
+    transform: translate(-50%);
+    @media screen and (max-width: 800px){
+        font-size: 4vw;
+        margin-top: -15vw;
+    }
+
+}
+
+.letter {
+    width: font(size);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    margin: 0 ceil(font(letter-spacing) / 2);
+    font-family: font(family);
+    font-size: font(size);
+    font-weight: 600;
+    line-height: font(size);
+    text-transform: uppercase;
+    color: color(text);
+    @media screen and (max-width: 900px){
+        font-size: 4vw;
+        width: 2.5vw;
+    }
+    @media screen and (max-width: 1200px){
+        font-size: 3vw;
+        width: 3vw;
+    }
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        word-break: break-all;
+        background-color: color(background);
+    }
+}
+
+// ----------------------------------
+
+@for $i from 1 through config(nb-letters) {
+    $length: length(config(mask-letters));
+    $random: random($length);
+    $steps: $random - 1;
+    $offset: font(size) * $steps * -1;
+    $delay: random(100) / 100;
+    $duration: $steps * (config(animation-length) / $random);
+    .letter:nth-child(#{$i}):before {
+        content: quote(random-string(config(mask-letters)));
+        margin-top: $offset;
+        animation-name: letter#{$i};
+        animation-duration: $duration - ($duration * $delay);
+        animation-delay: $delay * 1s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes letter#{$i} {
+        from {
+            margin-top: $offset;
+        }
+        to {
+            margin-top: font(size);
+        }
+    }
+}
+
+.numbers {
+    width: font(size);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    font-family: font(family);
+    font-size: font(size);
+    color: color(text);
+
+    @media screen and (max-width: 1200px){
+        font-size: 1vh;
+        width: 2.5vw;
+    }
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        // width: 100%;
+        word-break: break-all;
+        background-color: color(background);
+    }
+}
+
+.space{
+    // @media screen and (min-width: 400px){
+    //     padding-bottom: 0.001vw;
+    // }
+    @media screen and (min-width: 700px){
+        padding-bottom: 2vw;
+    }
+    @media screen and (min-width: 1000px){
+        padding-bottom: 8vw;
+    }
+}
+
+.ant-carousel .slick-slide {
+    height: 100vh;
+    width: 100vw;
+    line-height: 160px;
+    color: #fff;
+    background: linear-gradient(-45deg, #9d23d5);
+    background-size: 400% 400%;
+    -webkit-animation: gradientBG 5s ease infinite;
+            animation: gradientBG 5s ease infinite;
+    /* overflow: hidden; */
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+
+  @-webkit-keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.infin8-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    max-width: 100vw;
+    
+    @media screen and (max-width: 400px){
+        margin-top: auto;
+    }
+}
+
+.fadingtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    width: 300px;
+    height: 150px;
+    background: red;
+    margin-left: -150px;
+    z-index: 30;
+    -webkit-animation: fade-in-slogan infinite 2s ease-in forwards;
+       -moz-animation: fade-in-slogan infinite 2s ease-in forwards;
+            animation: fade-in-slogan infinite 2s ease-in forwards;
+  }
+  
+  @-webkit-keyframes fade-in-slogan {
+    0%   { opacity: 0; }
+    30%  { opacity: 1; }
+    50%  { opacity: 1; }
+    70%  { opacity: 1; }
+    100% { opacity: 0; } 
+  }
+
+  .watermark {
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: url('../assets/infin8shyout.png');
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    opacity: 0.2;
+    margin-top: -99vh;
+    margin-left: 20vw;
+  }
+
+  .header {
+      background-image: url('../assets/iiitb-white.png');
+      height: 10vh;
+      width: 110%;
+      margin: 10px;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
